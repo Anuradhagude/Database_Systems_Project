@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Microsoft Office User</Author>
+  <LastAuthor>Microsoft Office User</LastAuthor>
+  <Created>2022-07-22T17:24:08Z</Created>
+  <LastSaved>2022-07-22T17:37:17Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>16340</WindowHeight>
+  <WindowWidth>28040</WindowWidth>
+  <WindowTopX>380</WindowTopX>
+  <WindowTopY>500</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Font ss:FontName="Calibri" ss:Size="12" ss:Color="#111820"/>
+  </Style>
+  <Style ss:ID="s65">
+   <NumberFormat ss:Format="Currency"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <NumberFormat ss:Format="Currency"/>
+  </Style>
+  <Style ss:ID="s72">
+   <Font ss:FontName="Calibri" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s75">
+   <Font ss:FontName="Calibri" ss:Size="12" ss:Color="#0F1111"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Product">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="4" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="16">
+   <Column ss:Index="3" ss:Width="91"/>
+   <Row>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Product ID</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Price</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Description</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Cust ID</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">151</Data></Cell>
+    <Cell><Data ss:Type="String">Makeup Kit</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">35.99</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Makeup Kit All-in-one Makeup Gift Set for Women Full Kit, Include Makeup Brush Set, Eyeshadow Palette, Lip Gloss Set, Lipstick, Blush, Foundation, Concealer, Mascara, Eyebrow Pencil</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">154</Data></Cell>
+    <Cell><Data ss:Type="String">Sneakers</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">19.47</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running Shoes Sneakers Casual Men's Outdoor Athletic Jogging Sports Tennis Gym</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">155</Data></Cell>
+    <Cell><Data ss:Type="String">Handbag</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">49.99</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">MKF Collection Tote Bag for Women, Handbag Set with Wallet-Top-Handle- Vegan Leather Purse</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>3</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
