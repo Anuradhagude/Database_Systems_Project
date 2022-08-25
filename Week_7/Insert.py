@@ -26,15 +26,15 @@ else:
         print("The Total Price for Cart ID {} is {} on {}".format(row[0], row[2], row[1]))
     cart_cursor.close()
 
-    id = input("Enter Cart ID: ")
+    #id = input("Enter Cart ID: ")
     date = input("Enter Date: ")
     totalprice = input("Enter Total Price: ")
 
     insert_cart = ("INSERT INTO cart"
-                  "(id, date, totalprice)"
-                  "VALUES (%s,%s,%s)")
+                  "(date, totalprice)"
+                  "VALUES (%s,%s)")
 
-    cart_a = (id, date, totalprice)
+    cart_a = (date, totalprice)
     try:
         cart_cursor = cm_connection.cursor()
         cart_cursor.execute(insert_cart, cart_a)
